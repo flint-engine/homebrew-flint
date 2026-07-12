@@ -1,8 +1,8 @@
 class Flint < Formula
-    desc "Generate projects and files from template."
+    desc "Generate projects and files from template"
     homepage "https://github.com/flint-engine/flint"
-    url "https://github.com/flintbox/Flint/archive/0.3.0.tar.gz"
-    sha256 "7db82df395fc04f88ba2256ebb0e4f7566f2808a9a6e632a487867c2b58bdd8f"
+    url "https://github.com/flintbox/Flint/archive/refs/tags/0.3.1.tar.gz"
+    sha256 "8087c337ded3921b6cd06822141fc72fe6f2f6c46b7b2d6e57d99a066ae35ea5"
 
     def install
         system "make", "release"
